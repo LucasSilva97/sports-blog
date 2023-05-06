@@ -1,0 +1,12 @@
+.container__blog-title{
+  background-color: #468ffd;
+
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+}
+
+.container__blog-title > h1 > a {
+  text-decoration: none;
+  color: white;
+}
