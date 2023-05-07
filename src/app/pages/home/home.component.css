@@ -1,0 +1,16 @@
+.container__home{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.container__highlights_others_title {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.container__highlights_others_title > h2{
+  color: #666;
+}
