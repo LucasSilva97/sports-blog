@@ -26,19 +26,24 @@
   border-top-right-radius: 10px;
 }
 
-.container__small-card > .container__small-card-news > h1 {
+.container__small-card-news > a{
+  text-decoration: none;
+}
+
+.container__small-card > .container__small-card-news > a > h1 {
   margin: 10px 0;
   font-size: 22px;
   color: #808080;
 }
 
-.container__small-card > .container__small-card-news > p {
+.container__small-card > .container__small-card-news > a > p {
   letter-spacing: 1px;
   font-weight: 300;
   margin-bottom: 5px;
+  color: #6d6d6d;
 }
 
-.container__small-card > .container__small-card-news > legend {
+.container__small-card > .container__small-card-news > a > legend {
   margin-top: 10px;
   color: #6d6d6d;
   font-size: 12px;

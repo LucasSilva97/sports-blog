@@ -3,8 +3,10 @@
   src="{{photoCover}}"
   srcset="" />
   <div class="container__small-card-news">
-    <h1>{{ newsTitle }}</h1>
-    <p>{{ newsDescription }}</p>
-    <legend class="card-news-date"> {{ dateNews }} </legend>
+    <a [routerLink]="['content', name]">
+      <h1>{{ newsTitle }}</h1>
+      <p>{{ newsDescription }}</p>
+      <legend class="card-news-date"> {{ dateNews }} </legend>
+    </a>
   </div>
 </div>

@@ -1,12 +1,14 @@
 <div class="container__highlights-card">
-  <h1>Destaques do dia</h1>
+  <h1>Destaque do dia</h1>
   <img
   src="{{photoCover}}"
   alt="Imagem de um jogador com a camisa do Sport Recife"
   srcset="" />
   <div class="container__highlights-card-news">
-    <h2>{{ newsTitle }}</h2>
-    <p>{{ newsDescription }}</p>
-    <legend class="card-news-date">{{ dateNews }}</legend>
-  </div>
+      <a [routerLink]="['content', name]">
+      <h2><a>{{ newsTitle }}</a></h2>
+      <p>{{ newsDescription }}</p>
+      <legend class="card-news-date">{{ dateNews }}</legend>
+    </a>
+    </div>
 </div>

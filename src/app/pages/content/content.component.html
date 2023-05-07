@@ -1,1 +1,10 @@
-<p>content works!</p>
+<div class="container__content">
+  <a [routerLink]="['']">Voltar à página inicial</a>
+  <div class="content__cover">
+    <img src="{{photoCover}}" alt="">
+  </div>
+  <h1>{{ contentTitle }}</h1>
+  <div class="content__description">
+    {{ contentDescription }}
+  </div>
+</div>

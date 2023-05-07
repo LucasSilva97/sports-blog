@@ -1,0 +1,37 @@
+.container__content {
+  width: 100%;
+  height: 100vh;
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 0 10px;
+}
+
+.container__content > a {
+  text-decoration: none;
+  color: #808080;
+}
+
+.content__cover {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.content__cover > img {
+  width: 100%;
+  max-height: 300px;
+}
+
+.container__content > h1 {
+  font-size: 25px;
+  margin: 15px 0;
+  text-align: center;
+}
+
+.content__description{
+  text-align: center;
+  letter-spacing: 1px;
+}
