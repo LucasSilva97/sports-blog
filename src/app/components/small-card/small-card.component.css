@@ -1,12 +1,9 @@
 .container__small-card {
   width: 300px;
-  height: 250px;
   margin: 15px auto 0 auto;
   position: relative;
   box-shadow: 3px 3px 5px #656565;
-  background-image: url("https://classic.exame.com/wp-content/uploads/2023/04/GettyImages-1241251278.jpg?quality=70&strip=info&w=1024");
-  background-size: cover;
-  opacity: .5;
+  border-radius: 10px;
 
 
   display: flex;
@@ -15,27 +12,34 @@
   align-items: center;
 
   text-align: left;
-  color: #fff;
 }
 
 .container__small-card > .container__small-card-news{
   padding: 5px 10px;
-  margin-top: 20px;
+}
+
+.container__small-card > img {
+  width: 100%;
+  min-width: 288px;
+  max-height: 225px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .container__small-card > .container__small-card-news > h1 {
-  margin: 15px 0;
+  margin: 10px 0;
   font-size: 22px;
-  font-weight: bolder;
+  color: #808080;
 }
 
 .container__small-card > .container__small-card-news > p {
   letter-spacing: 1px;
-  font-weight: 400;
+  font-weight: 300;
   margin-bottom: 5px;
 }
 
 .container__small-card > .container__small-card-news > legend {
-  margin-top: 15px;
+  margin-top: 10px;
+  color: #6d6d6d;
   font-size: 12px;
 }
