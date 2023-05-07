@@ -15,5 +15,22 @@
   color: #666;
 }
 
+@media (min-width: 745px) {
+  .container__home {
+    justify-content: start;
+    flex-wrap: wrap;
+  }
 
+  .container__highlights_articles {
+    width: 800px;
+  }
+
+  .container__highlights_others > .container__highlights_others_title {
+    width: 100%;
+  }
+
+  .container__highlights_others > .container__highlights_others_title > h2 {
+    font-size: 40px;
+  }
+}
 

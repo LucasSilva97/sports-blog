@@ -35,3 +35,31 @@
   text-align: center;
   letter-spacing: 1px;
 }
+
+@media (min-width: 745px) {
+  .container__content{
+    max-width: 900px;
+    height: max-content;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+
+    box-shadow: 1px 1px 10px #468ffd;
+  }
+
+  .container__content > .content__cover > img {
+    max-width: 400px;
+
+  }
+
+  .container__content > h1 {
+    font-size: 30px;
+    margin-bottom: 2rem;
+  }
+
+  .container__content > .content__description {
+    font-size: 25px;
+    width: 100%;
+    position: relative;
+  }
+}
