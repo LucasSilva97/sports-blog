@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-highlights-card',
@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./highlights-card.component.css']
 })
 export class HighlightsCardComponent {
-
+  @Input()
+  photoCover:string = ""
+  @Input()
+  newsTitle:string = ""
+  @Input()
+  newsDescription:string = ""
+  @Input()
+  name:string = ""
+  @Input()
+  dateNews:string = ""
 }

@@ -1,13 +1,12 @@
 <div class="container__highlights-card">
+  <h1>Destaques do dia</h1>
   <img
-  src="https://paponacolina.com.br/wp-content/uploads/2023/05/1_luciano_juba_goat_sport-22912884.jpg"
+  src="{{photoCover}}"
   alt="Imagem de um jogador com a camisa do Sport Recife"
   srcset="" />
   <div class="container__highlights-card-news">
-    <h1>De saída?</h1>
-    <p>Destaque do Sport, Luciano Juba pode estar deixando a Ilha do Retiro para assinar como outro
-      Gigante Brasileiro.
-    </p>
-    <legend class="card-news-date">02/05/2023</legend>
+    <h2>{{ newsTitle }}</h2>
+    <p>{{ newsDescription }}</p>
+    <legend class="card-news-date">{{ dateNews }}</legend>
   </div>
 </div>
