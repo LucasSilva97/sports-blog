@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy:ghdocs": "ng build --configuration production --output-path docs --base-href /sports-blog/"
   },
   "private": true,
   "dependencies": {
@@ -35,4 +36,5 @@
     "karma-jasmine-html-reporter": "~2.0.0",
     "typescript": "~4.9.4"
   }
+
 }
